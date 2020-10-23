@@ -11,9 +11,9 @@ on:
   release:
     types: [published]
 
-  #push:
-  #  branches: 
-  #    - master
+  push:
+    branches: 
+      - auto_build
 
   #schedule:
   #  - cron: 0 8 * * 5
